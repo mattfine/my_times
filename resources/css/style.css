@@ -9,6 +9,8 @@ header {
   position: fixed;
   width: 100%;
   height: 80px;
+  z-index: 5;
+  background-color: white;
 }
 
 .logo {
@@ -43,6 +45,7 @@ div {
   top: 80px;
   display: flex;
   justify-content: space-between;
+  font-family: Georgia;
 }
 
 .large {
@@ -55,4 +58,39 @@ div {
 
 .small {
   width: 240px;
+}
+
+#main {
+  background-image: url(../images/story-main.png);
+  height: 300px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#story2 {
+  background-image: url(../images/story-2.png);
+  height: 300px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#story3 {
+  background-image: url(../images/story-3.png);
+  height: 300px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#story1 {
+  background-image: url(../images/story-1.png);
+  height: 300px;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
 }
